@@ -11,7 +11,7 @@ namespace WeatherBotApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Paginas.PaginaBot();
         }
 
         protected override void OnStart()
